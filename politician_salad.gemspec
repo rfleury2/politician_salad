@@ -10,8 +10,12 @@ Gem::Specification.new do |s|
                   "lib/base.rb",
                   "lib/barack_obama.rb",
                   "lib/hillary_clinton.rb",
-                  "lib/donald_trump.rb"]
+                  "lib/donald_trump.rb",
+                  "lib/trump.txt",
+                  "lib/hillary.txt",
+                  "lib/obama.txt"]
   s.homepage    =
     'http://rubygems.org/gems/politician_salad'
+  s.add_dependency = 'marky-markov'
   s.license       = 'MIT'
 end
