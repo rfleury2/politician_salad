@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'politician_salad'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2016-09-15'
   s.summary     = "Fake sentences and words from your favorite (or most despised) politician's speeches"
   s.description = "Fake sentences and words from your favorite (or most despised) politician's speeches using a Markov chain implementation in Ruby"
@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
                   "lib/obama.txt"]
   s.homepage    =
     'http://rubygems.org/gems/politician_salad'
-  s.add_runtime_dependency 'marky-markov', '~> 0.3.5'
+  s.add_runtime_dependency 'marky_markov', '~> 0.3.5'
   s.license       = 'MIT'
 end
