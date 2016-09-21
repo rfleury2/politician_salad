@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
                   "lib/obama.txt"]
   s.homepage    =
     'http://rubygems.org/gems/politician_salad'
-  s.add_dependency = 'marky-markov'
+  s.add_runtime_dependency 'marky-markov', '~> 0.3.5'
   s.license       = 'MIT'
 end
