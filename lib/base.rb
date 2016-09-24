@@ -18,7 +18,7 @@ module PoliticianSalad
 
     def self.markov_chain
       markov = MarkyMarkov::TemporaryDictionary.new
-      markov.parse_file self.source_filename
+      markov.parse_string self.speech_text
 
       markov
     end

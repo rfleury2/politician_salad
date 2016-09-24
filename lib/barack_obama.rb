@@ -2,8 +2,8 @@ require_relative './base.rb'
 
 module PoliticianSalad
   class BarackObama < PoliticianSalad::Base
-    def self.source_filename
-      './lib/obama.txt'
+    def self.speech_text
+      BarackObamaSpeech.fetch
     end
   end
 end
