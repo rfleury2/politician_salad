@@ -1,4 +1,4 @@
-## Politician Salad
+# Politician Salad
 
 A data faker that generates gibberish sentences and words taken from speeches of the politicians you know and love (and love to hate).
 
