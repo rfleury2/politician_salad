@@ -1,4 +1,5 @@
 require 'marky_markov'
+require 'pry'
 
 module PoliticianSalad
   class Base
@@ -20,7 +21,7 @@ module PoliticianSalad
       markov = MarkyMarkov::TemporaryDictionary.new
       candidate_path = File.join(File.dirname(__FILE__), warehouse_path)
       file = File.open(candidate_path)
-      markov.parse_string file
+      markov.parse_file file
 
       markov
     end

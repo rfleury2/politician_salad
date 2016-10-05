@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'politician_salad'
-  s.version     = '0.2.0'
+  s.version     = '0.2.1'
   s.date        = '2016-10-04'
   s.summary     = "Fake sentences and words from your favorite (or most despised) politician's speeches"
   s.description = "Fake sentences and words from your favorite (or most despised) politician's speeches using a Markov chain implementation in Ruby"
