@@ -22,30 +22,33 @@ gem install 'politician_salad'
 
 ##### Generating a sentence: 
 ```ruby
-PoliticianSalad::BarackObama.sentence # defaults to one sentence
+barack_obama = PoliticianSalad::BarackObama.new
+barack_obama.sentence # defaults to one sentence
 # "Bush's failures, i'd be looking for something else to talk not just on the brink of retirement, finds herself one illness away from disaster after a long time."
 
-PoliticianSalad::DonaldTrump.sentence
+donald_trump = PoliticianSalad::DonaldTrump.new
+donald_trump.sentence
 # "She proposes this despite the total lack of media curiosity, is that it serves the needs of the vetting procedure."
 
 
 # You can also use the method argument to get more than one sentence.
-PoliticianSalad::HillaryClinton.sentence(2)
+hillary_clinton = PoliticianSalad::HillaryClinton.new
+hillary_clinton.sentence(2)
 # "Trump said a federal judge, who by the divisive rhetoric coming from my opponent in this election was here in this world and care for us."
 ```
 
 ##### Generating more than one sentence as an array: 
 ```ruby
-PoliticianSalad::BarackObama.sentences(2)
-# ["Republicans actually worked together", "Delano roosevelt, came up with costs like prescription drugs."]
+barack_obama.sentences(2)
+# ["Republicans actually worked together", "Franklin Delano Roosevelt, came up with costs like prescription drugs."]
 ```
 
 ##### Generating a word salad: 
 ```ruby
-PoliticianSalad::BarackObama.word # defaults to 5 words
-# "Speaker of the workers about" 
-PoliticianSalad::DonaldTrump.word(10)
-# "They go out, and they use it for terror because" 
+barack_obama.word # defaults to 5 words
+# "Speaker of the workers about"
+barack_obama.word(10)
+# "They go out, and they use it for terror because"
 ```
 
 ## Motivation
